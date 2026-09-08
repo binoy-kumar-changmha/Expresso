@@ -1,0 +1,15 @@
+.container {
+  min-height: 75vh;
+}
+
+.formCard {
+  width: 35rem;
+}
+
+.textArea {
+  resize: none;
+}
+
+.submitBtn {
+  transition: all 0.3s ease;
+}

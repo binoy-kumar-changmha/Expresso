@@ -1,0 +1,74 @@
+.skeletonCard {
+  width: 35rem;
+  max-width: 100%;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 28px;
+  margin-bottom: 1.5rem;
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    #f5f5f5 30%,
+    #ececec 50%,
+    #f5f5f5 70%
+  );
+  background-size: 300% 100%;
+  animation: shimmer 2s ease-in-out infinite;
+  border-radius: 10px;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.headerLines {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.lineMed {
+  height: 10px;
+  width: 45%;
+}
+
+.lineShort {
+  height: 8px;
+  width: 28%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.lineBody {
+  height: 10px;
+  width: 100%;
+}
+
+.lineBodyShort {
+  height: 10px;
+  width: 60%;
+}
